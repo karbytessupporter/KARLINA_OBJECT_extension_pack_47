@@ -1,7 +1,7 @@
 /**
  * file: chatgpt_karbytes_02august2025_p0.txt
  * type: plain-text
- * date: 05_AUGUST_2025
+ * date: 06_AUGUST_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
@@ -378,15 +378,15 @@ So a file in your Internet Archive library will live at a permanent archive.org 
 
 [preformatted_text]
 
-Feature | Wayback Machine | Internet Archive Library
+Feature ------------------| Wayback Machine ----------------------------------------| Internet Archive Library
 
-Source | Automated (or manual) web snapshots | Direct user uploads
+Source -------------------| Automated (or manual) web snapshots --------------------| Direct user uploads
 
-Persistence | Mirrors web pages, prone to robots.txt deletions | Long‑term repository, much more stable
+Persistence --------------| Mirrors web pages, prone to robots.txt deletions -------| Long‑term repository, much more stable
 
-File capture | Often skips large/binary files | Stores full original files you upload
+File capture -------------| Often skips large/binary files -------------------------| Stores full original files you upload
 
-Your genome FASTA | May fail (too large / crawler limits) | ✅ Works fine, permanent item hosting
+Your genome FASTA --------| May fail (too large / crawler limits) ------------------| ✅ Works fine, permanent item hosting
 
 [end preformatted_text]
 
@@ -621,7 +621,7 @@ Here’s the draft:
   </p>
 </article>
 
-[end preformatted_text]
+[end html]
 
 🔹 What You’ll Need to Do
 
@@ -941,7 +941,7 @@ python genome_checksum.py verify my_genome.fasta checksum.txt
   data integrity for scientific use.
 </p>
 
-[end python]
+[end html]
 
 🔹 Next Steps for You
 
@@ -1266,11 +1266,11 @@ chmod +x recombine_genome.sh
 
 Python
 
-[python]
+[bash]
 
 python recombine_genome.py my_genome.fasta
 
-[end python]
+[end bash]
 
 Script automatically checks if the combined file is .gz and decompresses if needed.
 
