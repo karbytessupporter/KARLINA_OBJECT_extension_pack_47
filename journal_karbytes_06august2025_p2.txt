@@ -1,0 +1,58 @@
+/**
+ * file: journal_karbytes_06august2025_p2.txt
+ * type: plain-text
+ * date: 06_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The original name of this file was karbytes_anonymous_github_file_wayback_machine_saves.txt. 
+
+A slightly modified version of the following Python script was used to replace "sensitive information" in the following Uniform Resource Locators with placeholder text: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/update_urls_in_file.py
+
+* * * 
+
+file_0: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/raw_github_files_directory_KARLINA_OBJECT_extension_pack_47.html
+
+file_1: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/twitter_karbytes_profile_snippet_04august2025.png
+
+file_2: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/twitter_karbytes_replies_snippet_04august2025.png
+
+file_3: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_generated_image_negative_space_concept_04august2025.png
+
+file_4: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_01august2025_p0.txt
+
+file_5: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_01august2025_p1.txt
+
+file_6: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_02august2025_p0.txt
+
+file_7: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_04august2025_p0.txt
+
+file_8: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_05august2025_p0.txt
+
+file_9: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/chatgpt_karbytes_05august2025_p1.txt
+
+file_10: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/journal_karbytes_04august2025_p0.txt
+
+file_11: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/journal_karbytes_05august2025_p0.txt
+
+file_12: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/journal_karbytes_05august2025_p1.txt
+
+file_13: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/journal_karbytes_06august2025_p0.txt
+
+file_14: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/unlisted_web_page_karbytes_workflow_established_05august2025.html
+
+file_15: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/falling_apples_game_interface.html
+
+file_16: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/falling_apples_game_logic.js
+
+file_17: https://raw.githubusercontent.com/[anonymous_karbytes_github_account]/[public_repository]/main/falling_apples_game_style.css
+
+
+
+
+
+
+
+
+
