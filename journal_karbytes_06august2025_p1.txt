@@ -1,0 +1,20 @@
+/**
+ * file: journal_karbytes_06august2025_p1.txt
+ * type: plain-text
+ * date: 06_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+For six consecutive days (i.e. the period of time whose end points are 11:59PM Pacific Standard Time on 31_AUGUST_2025 and 11:59PM Pacific Standard Time on 05_AUGUST_2025), I enjoyed a solid hiatus period in which I drafted new content to eventually incorporate into karbytes (immediately after the hiatus period ends) and expected that hiatus period to be extended until its total length is approximately two to seven weeks (as stated in an older note file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/chatgpt_karbytes_04august2025_p0.txt). While browsing hyperlinked files in KARLINA OBJECT dot WordPress dot Com to use as templates for new software development projects, I noticed a broken hyperlink in the following KARLINA OBJECT web page: https://karlinaobject.wordpress.com/probability/. I figured there could be more errors like that throughout the parts of karbytes which are supposed to be as error-free as possible (unlike all the other parts of karbytes which are intended to be preserved exactly as they were last created or modified (by karbytes) due to the fact that those components of karbytes are considered to be historical artifacts more than they are professional portfolio pieces).
+
+karbytes decided to end the hiatus period following the finalization of the "micro directory" named "raw_github_files_directory_KARLINA_OBJECT_extension_pack_46" in order to correct the error(s) which karbytes noticed in portfolio-esque parts of the karbytes website clusters (which encompasses the entirety of KARLINA OBJECT dot WordPress dot Com, the entirety of the SOFTWARE_ENGINEERING_PORTFOLIO section of KARBYTES FOR LIFE BLOG dot WordPress dot Com, and any other parts of KARBYTES FOR LIFE BLOG dot WordPress dot Com which are either top-level web pages in that website or else "micro directory" web pages).
+
+For more information on what a "micro directory" is, refer to the following web page: https://karbytesforlifeblog.wordpress.com/micro_directory_definition/
+
+It should be noted that "top-level" web pages are those which are linked to directly from the home page of their respective website. All of the web pages of KARLINA_OBJECT dot WordPress dot Com are considered to be top-level web pages (and there are thirty web pages total in that website). By contrast, only seventeen web pages are considered to be top-level web pages in KARBYTES FOR LIFE BLOG dot WordPress dot Com.
+
+A complete list of files which were generated during the aforementioned hiatus period are available in the following note file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/journal_karbytes_06august2025_p2.txt
+
+
+
