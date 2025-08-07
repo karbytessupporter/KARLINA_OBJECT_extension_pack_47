@@ -1,0 +1,17 @@
+/**
+ * file: journal_karbytes_06august2025_p0.txt
+ * type: plain-text
+ * date: 06_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+Although I canonically refer to myself as being a nihilist (which means I don't think there is any inherent purpose to life), I like to say that the purpose of life is to have fun.
+
+"Life is not entirely about having fun," some people say. I reply to them that I acknowledge that some experiences are neither pleasant nor seemingly productive in terms of making real progress towards goals which are actually desired. At the same time, I acknowledge that I believe that all goal-oriented activities which humans voluntarily engage in is ultimately in preparation for the doers of those activities to have as much fun as possible.
+
+"Not everyone is allowed to have the same degree of fun and some people don't get to have any fun at all," some people say. I reply to them that I acknowledge that some people are beset with unintended limitations which prevent them from having much fun at all such as chronic and painful diseases or dying relatively slowly from an accident. I also acknowledge that some people, at least historically or hypothetically, have been used as slaves whose assigned purpose is to enable people other than themselves to have fun while those slaves are treated by their captors as being undeserving of fun. I try to have fun which is not detrimental to anyone's ability to have fun. In other words, I do not intend to make anyone a slave.
+
+relevant_web_page_0: https://karbytesforlifeblog.wordpress.com/karbytes_ontology/
+
+relevant_web_page_1: https://karbytesforlifeblog.wordpress.com/karbytes_primary_values/

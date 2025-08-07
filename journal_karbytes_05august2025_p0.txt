@@ -1,0 +1,9 @@
+/**
+ * file: journal_karbytes_05august2025_p0.txt
+ * type: plain-text
+ * date: 05_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+For any non‑omniscient information-processing agent, uncertainty arises from not knowing whether its current knowledge is complete or how its own future will unfold.

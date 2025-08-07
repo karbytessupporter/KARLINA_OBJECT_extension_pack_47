@@ -1,0 +1,25 @@
+/**
+ * file: journal_karbytes_05august2025_p1.txt
+ * type: plain-text
+ * date: 05_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+For each new batch of finalized karbytes drafts:
+
+1. Copy each of the files in that batch from the public repository on the anonymous GitHub account to the appropriate public repositories on the official karbytes GitHub account (whose username is @karlinarayberinger).
+
+2. Change the access level of the anonymous GitHub repository from public to private (which means that the newly privatized repository will no longer be used to save file URLs to the WayBack Machine).
+
+3. Change the name of the newly privatized GitHub repository such that the date on which that repository was privatized will be appended to the end of the original repository name (such that "[repository]" becomes "[repository]_[day][month][year]").
+
+4. Create a new public GitHub repository on that anonymous GitHub account named what the newly privatized repository used to be named (and that new public GitHub repository will be used to store the next batch of karbytes files before those files are officially incorporated into the canon karbytes).
+
+5. For the length of some development phase (which is also a hiatus from the canon karbytes being updated):
+
+5.a. Save each file which is either added to the current public anonymous GitHub repository or else edited to the WayBack Machine as often as is feasible (i.e. approximately once per day).
+
+5.b.0. If the collection of files in the current public anonymous GitHub repository attain a newly acquired state of being what karbytes considers to be thematically or logistically incremented by a whole step:
+
+5.b.1. Save the current official karbytes collection and the current public anonymous GitHub repository contents to an intermediary backup M_DISC to keep in karbytes' personal local offline stash.

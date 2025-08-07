@@ -1,0 +1,33 @@
+<!--
+  /**
+   * file: falling_apples_game_interface.html
+   * type: Hyper-Text-Markup-Language
+   * date: 06_AUGUST_2025
+   * author: karbytes
+   * license: PUBLIC_DOMAIN
+   */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Falling Apples Game</title>
+  <link rel="stylesheet" href="falling_apples_game_style.css" />
+</head>
+<body>
+  <h1>🍎 Falling Apples</h1>
+  <div id="scoreboard">
+    Score: <span id="score">0</span> / 100 |
+    Time: <span id="timer">0</span> sec
+  </div>
+  <div id="game-container">
+    <canvas id="game-canvas" width="400" height="600"></canvas>
+    <div id="controls">
+      <button id="left-btn">⬅️</button>
+      <button id="right-btn">➡️</button>
+    </div>
+  </div>
+  <button id="restart-btn" style="display:none;">🔄 Restart</button>
+  <script src="falling_apples_game_logic.js"></script>
+</body>
+</html>
