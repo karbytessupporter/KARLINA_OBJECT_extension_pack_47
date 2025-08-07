@@ -1,0 +1,452 @@
+<hr>
+<p><strong>FALLING_APPLES_GAME</strong></p>
+<hr>
+<p><span style="background:#ffff00">The <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener">single web page application</a> featured in this tutorial is a simple <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/Game" target="_blank" rel="noopener">game</a> which simulates apples falling out of the sky while the player attempts to catch as many of the falling apples as possible (before they touch the ground) in a basket. During the game, one hundred &#8220;apples&#8221; each fall at a constant velocity along a path which is perpendicular to the ground and such that the horizontal position of each apple with respect to a fixed point on the ground is &#8220;randomized&#8221;. The player controls a rectangular basket which moves along the ground to the left or right by clicking arrow buttons on the screen or by pressing the left and right arrow keys on the computer keyboard. Each time an apple is caught, the score is incremented by one. Also, the total number of seconds elapsed per game round is displayed. This software application was deliberately left as barebones as possible (with plenty of comments in the <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JavaScript</a> file) so that users can customize the code to make the game more logically elaborate and aesthetically sophisticated such as adding sound effects, different apple types, different falling rates for some apples, and increasing difficulty levels as the player advances in the game).</span></p>
+<div style="background:#6e6e66;padding:10px;border-radius:5px;margin-top:10px;margin-bottom:10px">
+<p>Note that a live version of the <strong>FALLING_APPLES_GAME</strong> application is available to try using immediately from your current web browser at the following web address: <a style="background: #00ff00;color: #000000" href="https://karlinarayberinger.github.io/KARBYTES_BLOG_APPS_github_hosted_website/FALLING_APPLES_GAME/falling_apples_game_interface.html" target="_blank" rel="noopener">https://karlinarayberinger.github.io/KARBYTES_BLOG_APPS_github_hosted_website/FALLING_APPLES_GAME/falling_apples_game_interface.html</a></p>
+</div>
+<p><em>To view hidden text inside of the preformatted text boxes below, scroll horizontally.</em></p>
+<hr>
+<p><strong>FALLING_APPLES_GAME Software Application Components</strong></p>
+<hr>
+<p>Hyper-Text-Markup-Language_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_interface.html" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_interface.html</a></p>
+<p>Cascading-Style-Sheet_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_style.css" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_style.css</a></p>
+<p>JavaScript_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_logic.js" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_logic.js</a></p>
+<hr>
+<p><strong>FALLING_APPLES_GAME Hyper-Text-Markup-Language Code</strong></p>
+<hr>
+<p>The following Hyper-Text-Markup-Language (<a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">HTML</a>) code defines the user interface component of the FALLING_APPLES_GAME web page application.</p>
+<p>Copy the HTML code from the source code file which is linked below into a text editor and save that file as <strong>falling_apples_game_interface.html</strong>. Use a web browser such as <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/Firefox" target="_blank" rel="noopener">Firefox</a> to open that HTML file.</p>
+<p><em>(Note that angle brackets which resemble <a style="background:#ff9000;color:#000000" href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">HTML</a> tags (i.e. an &#8220;is less than&#8221; symbol (i.e. &#8216;&lt;&#8216;) followed by an &#8220;is greater than&#8221; symbol (i.e. &#8216;&gt;&#8217;)) displayed on this web page have been replaced (at the source code level of this web page) with the Unicode symbols <a style="background:#ff9000;color:#000000" href="https://en.wikipedia.org/wiki/Less-than_sign" target="_blank" rel="noopener">U+003C</a> (which is rendered by the web browser as &#8216;&lt;&#8216;) and <a style="background:#ff9000;color:#000000" href="https://en.wikipedia.org/wiki/Greater-than_sign" target="_blank" rel="noopener">U+003E</a> (which is rendered by the web browser as &#8216;&gt;&#8217;). That is because the <a style="background:#ff9000;color:#000000" href="https://en.wikipedia.org/wiki/WordPress.com" target="_blank" rel="noopener">WordPress</a> web page editor or web browser interprets a plain-text version of an &#8220;is less than&#8221; symbol followed by an &#8220;is greater than&#8221; symbol as being an opening HTML tag (which means that the WordPress web page editor or web browser deletes or fails to display those (plain-text) inequality symbols and the content between those (plain-text) inequality symbols)).</em></p>
+<p><em><strong>If copy-pasting the following HTML code from the preformatted text box below into a text editor, remove the <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/Zero-width_space" target="_blank" rel="noopener">zero-width space</a> Unicode character (<span style="background:#000000;color:#fe9eff">&amp;&#8203;#8203;</span>) which is located between the &#8216;s&#8217; and the &#8216;r&#8217; in the script tag(s) which each link to a <a style="background:#ff9000;color:#000000" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JavaScript</a> file.</strong></em></p>
+<p>Hyper-Text-Markup-Language_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_interface.html" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_interface.html</a></p>
+<hr>
+<pre>
+&lt;!--
+  /**
+   * file: falling_apples_game_interface.html
+   * type: Hyper-Text-Markup-Language
+   * date: 06_AUGUST_2025
+   * author: karbytes
+   * license: PUBLIC_DOMAIN
+   */
+--&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;title&gt;Falling Apples Game&lt;/title&gt;
+  &lt;link rel="stylesheet" href="falling_apples_game_style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;🍎 Falling Apples&lt;/h1&gt;
+  &lt;div id="scoreboard"&gt;
+    Score: &lt;span id="score"&gt;0&lt;/span&gt; / 100 |
+    Time: &lt;span id="timer"&gt;0&lt;/span&gt; sec
+  &lt;/div&gt;
+  &lt;div id="game-container"&gt;
+    &lt;canvas id="game-canvas" width="400" height="600"&gt;&lt;/canvas&gt;
+    &lt;div id="controls"&gt;
+      &lt;button id="left-btn"&gt;⬅️&lt;/button&gt;
+      &lt;button id="right-btn"&gt;➡️&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button id="restart-btn" style="display:none;"&gt;🔄 Restart&lt;/button&gt;
+  &lt;script s&#8203;rc="falling_apples_game_logic.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<hr>
+<p><strong>FALLING_APPLES_GAME Cascading-Style-Sheet Code</strong></p>
+<hr>
+<p>The following Cascading-Style-Sheet (<a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener">CSS</a>) code defines a stylesheet which customizes the appearance of interface components of the FALLING_APPLES_GAME web page application. Copy the CSS code from the preformatted text box below or from the source code file which is linked below into a text editor and save that file as <strong>falling_apples_game_style.css</strong>.</p>
+<p>Cascading-Style-Sheet_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_style.css" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_style.css</a></p>
+<hr>
+<pre>
+/**
+ * file: falling_apples_game_style.css
+ * type: Cascading-Style-Sheet
+ * date: 06_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+body {
+  background: #f9f9f9;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 1em;
+}
+
+#scoreboard {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#game-container {
+  position: relative;
+  display: inline-block;
+}
+
+#game-canvas {
+  border: 2px solid #333;
+  background-color: #e0f7fa;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#restart-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+</pre>
+<hr>
+<p><strong>FALLING_APPLES_GAME JavaScript Code</strong></p>
+<hr>
+<p>The following JavaScript (<a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener">JS</a>) code defines the functions which control the behavior of the FALLING_APPLES_GAME web page application. Copy the JS code from the preformatted text box below or from the source code file which is linked below into a text editor and save that file as <strong>falling_apples_game_logic.js</strong>.</p>
+<p>JavaScript_file: <a style="background: #000000;color: #00ff00" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_logic.js" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_logic.js</a></p>
+<hr>
+<pre>
+/**
+ * file: falling_apples_game_logic.js
+ * type: JavaScript
+ * date: 06_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+// Global Variables 
+
+/**
+ * The following two statements retrieve a reference to the HTML canvas element
+ * with the ID "game-canvas" and assign it to the constant variable canvas,
+ * and then retrieve that canvas element’s 2D rendering context and assign it
+ * to the constant variable ctx. 
+ * 
+ * The ctx object provides the methods used to draw the graphical components 
+ * of the Falling Apples Game (e.g., basket and apples).
+ */
+const canvas = document.getElementById("game-canvas");
+const ctx = canvas.getContext("2d");
+
+/**
+ * The following variable declarations define the size and initial placement
+ * of the rectangular basket used to catch falling apples in the game interface.
+ * 
+ * basketWidth and basketHeight specify the dimensions of the basket in pixels.
+ * 
+ * basketX represents the current horizontal position of the basket’s top-left corner
+ * and will be initialized at runtime (e.g., in resetGame).
+ * 
+ * basketY is statically calculated such that the basket appears near the bottom
+ * edge of the canvas with a 10-pixel margin between the basket and the canvas boundary.
+ */
+const basketWidth = 60;
+const basketHeight = 20;
+let basketX;
+const basketY = canvas.height - basketHeight - 10;
+
+/**
+ * The following variable declarations define the state of the falling apples game
+ * in terms of apple generation, scorekeeping, and game control.
+ * 
+ * apples is a list which stores the currently active apple objects,
+ * each of which has an x and y coordinate.
+ * 
+ * appleCount tracks how many apples have been spawned since the game began.
+ * 
+ * maxApples defines the maximum number of apples that will fall during one game session.
+ * 
+ * score records how many apples the player has successfully caught in the basket.
+ * 
+ * gameRunning is a Boolean flag indicating whether the game is currently active.
+ */
+let apples = [];
+let appleCount;
+let maxApples = 100;
+let score;
+let gameRunning = true;
+
+/**
+ * The following variable declarations support the game session timer functionality.
+ * 
+ * timerInterval stores the identifier returned by the setInterval function,
+ * which is used to increment and display the elapsed game time at one-second intervals.
+ * 
+ * secondsElapsed keeps track of the total number of seconds that have passed
+ * since the current game session began.
+ */
+let timerInterval;
+let secondsElapsed;
+
+// Functions
+
+/**
+ * This function (resetGame) reinitializes the global variables and HTML elements
+ * associated with the Falling Apples Game interface to their respective default
+ * values such that a new game session can be started from a blank slate.
+ * 
+ * The apple list is cleared, the score and timer are reset to 0, and the basket
+ * is repositioned to the horizontal center of the canvas.
+ * 
+ * The apple falling animation loop and game timer loop are both (re)started.
+ */
+function resetGame() {
+  apples = [];
+  basketX = (canvas.width - basketWidth) / 2;
+  appleCount = 0;
+  score = 0;
+  secondsElapsed = 0;
+  document.getElementById("score").textContent = score;
+  document.getElementById("timer").textContent = secondsElapsed;
+  document.getElementById("restart-btn").style.display = "none";
+  gameRunning = true;
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() =&gt; {
+    secondsElapsed++;
+    document.getElementById("timer").textContent = secondsElapsed;
+  }, 1000);
+  gameLoop();
+}
+
+/**
+ * This function (spawnApple) appends a newly generated apple object
+ * to the global apples list provided that the total number of apples
+ * generated so far is less than the maximum allowed and the game is
+ * currently running. 
+ * 
+ * Each apple object has an x-coordinate randomly selected from a range 
+ * of integers which ensures that the apple will appear fully within the 
+ * bounds of the canvas when drawn, and its y-coordinate is
+ * initialized to zero (the top edge of the canvas).
+ */
+function spawnApple() {
+  if (appleCount &gt;= maxApples || !gameRunning) return;
+  const x = Math.random() * (canvas.width - 20);
+  apples.push({ x, y: 0 });
+  appleCount++;
+}
+
+/**
+ * This function (drawBasket) draws a solid rectangle on the canvas using
+ * the fill color #795548 (a brown hue) to visually represent the basket.
+ * 
+ * The basket is rendered at the current basketX and basketY coordinates
+ * and is assigned the dimensions specified by the basketWidth and basketHeight
+ * global variables. 
+ * 
+ * This function is typically called once per animation frame
+ * to render the most current basket position during gameplay.
+ */
+function drawBasket() {
+  ctx.fillStyle = "#795548";
+  ctx.fillRect(basketX, basketY, basketWidth, basketHeight);
+}
+
+/**
+ * This function (drawApples) renders each apple in the global apples list
+ * as a red circle on the canvas. Each circle has a radius of 10 pixels and is
+ * centered slightly offset from the apple object's x and y coordinates to account
+ * for its radius (so that the circle is visually aligned with the intended position).
+ * 
+ * The canvas context's fill style is set to red prior to drawing the apples, and
+ * each apple is drawn using the arc and fill methods within a new path.
+ */
+function drawApples() {
+  ctx.fillStyle = "red";
+  apples.forEach(apple =&gt; {
+    ctx.beginPath();
+    ctx.arc(apple.x + 10, apple.y + 10, 10, 0, Math.PI * 2);
+    ctx.fill();
+  });
+}
+
+/**
+ * This function (updateApples) updates the vertical positions of all apples
+ * in the global apples list and checks whether each apple has either been caught
+ * by the basket or has fallen beyond the bottom edge of the canvas.
+
+ * Each apple's y-coordinate is incremented by 3 pixels to simulate downward motion.
+ * If an apple's position intersects with the current position of the basket,
+ * that apple is removed from the list and the player's score is incremented by 1.
+
+ * If an apple falls below the visible canvas area without being caught,
+ * it is also removed from the list (but the score remains unchanged).
+ */
+function updateApples() {
+  for (let i = apples.length - 1; i &gt;= 0; i--) {
+    const apple = apples[i];
+    apple.y += 3;
+    if (
+      apple.y + 20 &gt;= basketY &amp;&amp;
+      apple.x + 10 &gt;= basketX &amp;&amp;
+      apple.x + 10 &lt;= basketX + basketWidth
+    ) {
+      apples.splice(i, 1);
+      score++;
+      document.getElementById("score").textContent = score;
+    } else if (apple.y &gt; canvas.height) {
+      apples.splice(i, 1); // Missed
+    }
+  }
+}
+
+/*
+ * This function (draw) refreshes the entire canvas by first clearing its
+ * current contents and then redrawing both the basket and all currently
+ * falling apples in their latest positions. 
+ *
+ * This function is intended to be called once per animation frame to 
+ * visually reflect the current game state.
+ *
+ * The canvas is cleared using clearRect, and the subsequent drawing functions
+ * (drawBasket and drawApples) handle rendering the appropriate game elements.
+ */
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBasket();
+  drawApples();
+}
+
+/**
+ * This function (gameLoop) is the primary animation loop for the Falling Apples Game.
+ * 
+ * It repeatedly updates the game state and redraws the canvas as long as the game is active.
+ * 
+ * If the gameRunning flag is true, the function updates apple positions and re-renders the scene.
+ * 
+ * If fewer than maxApples apples have been spawned or if there are still apples falling,
+ * the loop schedules itself to run again on the next animation frame.
+ * 
+ * Once all apples have either been caught or missed, the game ends and gameOver() is invoked.
+ */
+function gameLoop() {
+  if (!gameRunning) return;
+
+  updateApples();
+  draw();
+
+  if (appleCount &lt; maxApples || apples.length &gt; 0) {
+    requestAnimationFrame(gameLoop);
+  } else {
+    gameOver();
+  }
+}
+
+/**
+ * This function (gameOver) halts all ongoing game activity and signals the end
+ * of the current Falling Apples Game session. 
+ * 
+ * The gameRunning flag is set to false to prevent further updates or user input 
+ * from affecting the game state.
+ * 
+ * The game timer interval is cleared to stop time tracking.
+ * 
+ * A browser alert displays the final score to the player,
+ * and the restart button is made visible to allow the player to initiate a new game.
+ */
+function gameOver() {
+  gameRunning = false;
+  clearInterval(timerInterval);
+  alert("Game over! Your score: " + score);
+  document.getElementById("restart-btn").style.display = "inline-block";
+}
+
+// Game Controls
+
+/*
+ * This event listener triggers when the HTML button element with the ID "left-btn"
+ * is clicked. 
+ * 
+ * If the game is currently active (i.e., gameRunning is true),
+ * the basket's horizontal position is updated to move 20 pixels to the left.
+ * 
+ * The Math.max function ensures that the basket does not move past the left edge
+ * of the canvas (i.e., basketX is never less than 0).
+ */
+document.getElementById("left-btn").addEventListener("click", () =&gt; {
+  if (!gameRunning) return;
+  basketX = Math.max(0, basketX - 20);
+});
+
+/**
+ * This event listener triggers when the HTML button element with the ID "right-btn"
+ * is clicked. 
+ * 
+ * If the game is currently active (i.e., gameRunning is true),
+ * the basket's horizontal position is updated to move 20 pixels to the right.
+ * 
+ * The Math.min function ensures that the basket does not move past the right edge
+ * of the canvas (i.e., basketX is never greater than canvas.width minus basketWidth).
+ */
+document.getElementById("right-btn").addEventListener("click", () =&gt; {
+  if (!gameRunning) return;
+  basketX = Math.min(canvas.width - basketWidth, basketX + 20);
+});
+
+/**
+ * This event listener triggers whenever a key is pressed while the document is in focus.
+ * 
+ * If the game is currently active (i.e., gameRunning is true), the basket is moved
+ * horizontally in response to the following key inputs:
+ * 
+ * Pressing either the left arrow key or the "A" key (case-insensitive)
+ * moves the basket 20 pixels to the left (bounded by the left edge of the canvas),
+ * while pressing either the right arrow key or the "D" key moves the basket 20 pixels
+ * to the right (bounded by the right edge of the canvas).
+ */
+document.addEventListener("keydown", (e) =&gt; {
+  if (!gameRunning) return;
+  if (e.key === "ArrowLeft" || e.key.toLowerCase() === "a") {
+    basketX = Math.max(0, basketX - 20);
+  } else if (e.key === "ArrowRight" || e.key.toLowerCase() === "d") {
+    basketX = Math.min(canvas.width - basketWidth, basketX + 20);
+  }
+});
+
+/**
+ * This event listener triggers when the HTML button element with the ID "restart-btn"
+ * is clicked. 
+ * 
+ * When activated, it calls the resetGame function, which reinitializes
+ * all game state variables and interface elements to their default values
+ * and starts a new game session from a blank slate.
+ * 
+ * This allows the player to immediately begin another round after the previous one ends.
+ */
+document.getElementById("restart-btn").addEventListener("click", resetGame);
+
+// Apple spawn loop
+setInterval(spawnApple, 500);
+
+// Start initial game
+resetGame();
+</pre>
+<hr>
+<p><strong>FALLING_APPLES_GAME Interface (after loading the web page)</strong></p>
+<hr>
+<p><em>The screenshot image below depicts a frame from an instance of the FALLING_APPLE_GAME being played while the apples were falling and after the user collected some of the falling apples.</em></p>
+<p>image_file: <a style="background:#000000;color:#ff9000" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_screenshot.png" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/falling_apples_game_screenshot.png</a></p>
+<hr>
+
+<figure class="wp-block-image size-full"><img data-attachment-id="48509" data-permalink="https://karbytesforlifeblog.wordpress.com/falling_apples_game/falling_apples_game_screenshot/" data-orig-file="https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png" data-orig-size="596,786" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="falling_apples_game_screenshot" data-image-description="" data-image-caption="" data-medium-file="https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png?w=227" data-large-file="https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png?w=596" width="596" height="786" src="https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png" alt="" class="wp-image-48509" srcset="https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png 596w, https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png?w=114&amp;h=150 114w, https://karbytesforlifeblog.wordpress.com/wp-content/uploads/2025/08/falling_apples_game_screenshot.png?w=227&amp;h=300 227w" sizes="(max-width: 596px) 100vw, 596px" /></figure>
+
+<hr>
+<p>This web page was last updated on 07_AUGUST_2025. The content displayed on this web page is licensed as <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/public_domain/" target="_blank" rel="noopener">PUBLIC_DOMAIN</a> intellectual property.</p>
+<hr />
