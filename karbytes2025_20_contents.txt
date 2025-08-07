@@ -316,6 +316,6 @@ file_152: KARBYTES_JOURNAL_2023_PART_26-main.zip // 81.69 megabytes
 
 Total number of files: 153
 
-Total folder size: 16709.62 megabytes
+Total folder size: 16709.63 megabytes
 
 --------------------------------
